@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Certification Project</title>
+</head>
+
+<body>
+<main>
+  <h1 id="title">Certification Project</h1>
+  <p id="description">This is my first certification project as a part of my freeCodeCamp-certificate.</p>
+<div id="form-box">
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Enter your name..." required></label>
+      <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="Enter your email..." required></label>
+      <label id="number-label" for="number">Age: <input id="number" type="number" placeholder="Enter your age..." min="5" max="120" required></label>
+      <label id="dropdown-label">What do you think of my project?
+        <select id="dropdown">
+          <option value="" selected="selected" disabled>I think...</option>
+          <option value="1">It's spectacular</option>
+          <option value="2">I have seen better...</option>
+        </select>
+      </label>
+      </fieldset>
+      <fieldset>
+      <legend id="radio-legend">Are we friends?
+      <label class="radios">Yes <input class="radio" type="radio" name="friends" value="yes"></label><label class="radios">No <input class="radio" type="radio" name="friends" value="no"></label>
+      </legend>
+      </fieldset>
+      <fieldset>
+<legend>What is your favourite colour/colours?</legend>
+      <label class="checkboxes">Blue <input type="checkbox" value="blue"></label>
+      <label class="checkboxes">Red <input type="checkbox" value="red"></label>
+      <label class="checkboxes">Green <input type="checkbox" value="green"></label>
+      <label class="checkboxes">Yellow <input type="checkbox" value="yellow"></label>
+    </fieldset>
+    <fieldset>
+    <label id="feedback-label" for="feedback">Do you have any feedback? 
+    <textarea id="feedback" rows="5" cols="50" placeholder="Good job!"></textarea>
+    </label>
+    </fieldset>
+    <input id="submit" type="submit">
+    
+</form>
+</div>
+</main>
+<footer>
+  <p id="made-by">Made by Jonathan Petrone</p>
+</footer>  
+</body>    
+</html>

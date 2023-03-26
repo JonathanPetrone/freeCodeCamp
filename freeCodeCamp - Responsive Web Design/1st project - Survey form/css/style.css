@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(108,249, 182);
+  }
+  
+#name-label, #email-label, #number-label,#dropdown-label, #feedback-label {
+  padding-left: 34px;
+  font-size: 15px;
+}
+  
+legend {
+    font-family: arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 34px;
+    display: block;
+}
+  
+.radio {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+  
+#name, #email, #number {
+    background-color: rgb(206, 253, 231) ;
+    border: 1px solid rgb(206, 253, 231);
+    border-radius: 2px;
+    display: block;
+    width: 85%;
+    height: 4%;
+    min-width: 200px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+  
+#submit{
+    background-color:rgb(15, 244, 135);
+    width: 20%;
+    max-width: 120px;
+    min-width: 80px;
+    height: 4.5%;
+    float: right; 
+    margin-right: 46px;
+}
+  
+#dropdown {
+    background-color: rgb(206,253, 231) ;
+    border: 1px solid rgb(206, 253, 231);
+    display: block;
+    min-width: 200px;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 4%;
+}
+  
+#feedback {
+    background-color: rgb(206,253, 231) ;
+    border: 1px solid rgb(206, 253, 231);
+    width: 86%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+  
+#form-box {
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 2%; 
+    padding: 20px;
+    margin-top: 16px;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 44px;
+}
+  
+h1 {
+    font-family: arial black,sans-serif;
+    text-align: center;
+    margin: 1em auto;
+    margin-bottom: 0;
+}
+  
+#description {
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+    padding-top: 11px;
+    font-size: 12px;
+}
+  
+  #made-by {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  p {
+    font-family: arial,sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+  }
+  
+  fieldset {
+    border: 0;
+  }
+  
+  label {
+    font-family: arial,sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+  }
+  
+  .checkboxes {
+    display:block;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+  }
+  
+  .checkboxes:first-of-type {
+    display:block;
+  }
+  
+  .radios {
+    display:block;
+    font-size: 13px;
+  }
+  
+  .radios:first-of-type {
+    display:block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
