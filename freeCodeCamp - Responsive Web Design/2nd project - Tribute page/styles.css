@@ -1,0 +1,28 @@
+
+img {
+    display:block;
+  }
+  
+  #title {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 4%;
+  }
+  
+  #image {
+    max-width: 100%;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 8px;
+  }
+  
+  #top-five {
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+  }
+  
+  #tribute-info {
+  justify-content: center;
+  }
+  
